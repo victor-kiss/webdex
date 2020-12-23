@@ -1,0 +1,66 @@
+div.webdex{
+  margin-top: 40px;
+}
+div.webdex-area{
+  background-color: #f3f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center
+}
+div.title{
+  margin-bottom: 40px;
+}
+div.title h1{
+  font-family: pokemon;
+  letter-spacing: 2px;
+  font-size: 3.8em;
+}
+div.input-area{
+  display: block;
+}
+input.input{
+   padding: 5px;
+   width: 100%;
+   border: 2px solid #03254c;
+   border-radius: .475rem;
+}
+input.input:focus{
+   outline: none;
+ }
+ input.input::placeholder{
+    font-size: 16px;
+  }
+button.button{
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+    background-color: #c62828;
+    border: 2px solid #b71c1c;
+    border-radius: .475rem;
+}
+button.random-button{
+  width:100%;
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+  background-color: #2962ff;
+  border: 2px solid #2979ff;
+  border-radius: .475rem;
+}
+button.button:hover{
+    color:#ffeb3b;
+}
+button.random-button:hover{
+  color: #ffeb3b;
+}
+
+@media(max-width:576px){
+  div.input-area{
+    margin: 0px 10px;
+  }
+  input.input,button.button{
+    width: 100%;
+  }
+}

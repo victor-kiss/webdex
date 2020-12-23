@@ -1,0 +1,37 @@
+@font-face{
+    font-family: pokemon;
+    src: url("../../fonts/Pokemon\ Solid.ttf");
+}
+
+header.banner{
+    width:100%;
+    background-image: url("../../images/background/darkPokemon.webp");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img.icon{
+    margin:0 5px;
+    vertical-align:bottom;
+}
+h1.title{
+    font-family:pokemon;
+    color: yellow;
+    text-shadow: 4px 2px 2px dodgerblue;
+    font-size: 3.8em;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+
+/*Media Query*/
+@media(max-width:576px){
+    h1.title{
+        font-size: 2.8em;
+    }
+}
