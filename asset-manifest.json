@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webdex/static/css/main.8fa4ae7b.chunk.css",
-    "main.js": "/webdex/static/js/main.fa66987e.chunk.js",
-    "main.js.map": "/webdex/static/js/main.fa66987e.chunk.js.map",
+    "main.js": "/webdex/static/js/main.c97c870e.chunk.js",
+    "main.js.map": "/webdex/static/js/main.c97c870e.chunk.js.map",
     "runtime-main.js": "/webdex/static/js/runtime-main.6c4ebd89.js",
     "runtime-main.js.map": "/webdex/static/js/runtime-main.6c4ebd89.js.map",
     "static/js/2.92c9cb72.chunk.js": "/webdex/static/js/2.92c9cb72.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.6c4ebd89.js",
     "static/js/2.92c9cb72.chunk.js",
     "static/css/main.8fa4ae7b.chunk.css",
-    "static/js/main.fa66987e.chunk.js"
+    "static/js/main.c97c870e.chunk.js"
   ]
 }
